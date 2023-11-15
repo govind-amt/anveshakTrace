@@ -1,0 +1,156 @@
+.balanceCard{
+    height: 18vh;
+    box-shadow: 0px 0px 5px 0px #11644a;
+    background-color: white;
+}
+.tableShadow{
+    box-shadow: 0px 0px 5px 1px #11644a;
+}
+.user-box {
+    display: flex;
+    align-items: center;
+    padding: 23px 4px;
+    gap: 5px;
+    border-radius: unset;
+    position: relative;
+}
+.userIcon {
+    font-size: 24px;
+    color: #11644a;
+}
+
+.username {
+    font-size: 16px;
+    color: #11644a;
+}
+.usernameHeading{
+    font-size: 30px;
+    color: #11644a;
+    font-weight: 500;
+}
+
+.dropdown-icon {
+    font-size: 16px;
+    color: #11644a;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 95%;
+    right: 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 83px;
+    z-index: 1000;
+    font-size: 15px;
+    background-color: #11644a;
+    color: white;
+    padding: 5px 10px;
+}
+
+.optionSettings{
+    color: white;
+    background-color:#11644a ;
+    border-bottom: 1px solid #bbb1b1;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 5px;
+}
+.optionSettings:hover{
+    background-color: #6e6f71;
+}
+.dashButton{
+    top: 22%;
+    background: #97b59f;
+    color: white;
+    width: 16%;
+    height: 7%;
+    border-radius: 5px;
+    left: 2%;
+    box-shadow: 0px 0px 10px 1px #11644a;
+}
+.anveshakHeading{
+    font-size: 44px;
+    justify-content: center;
+    display: flex;
+    font-family: serif;
+}
+.anveshakImage{
+    height: 9%;
+    width: 18%;
+}
+.anveshakDiv{
+    top: 2%;
+    display: flex;
+    width: 20%;
+    justify-content: center;
+}
+.buySellButton{
+    color: white;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+    border-radius: 5px;
+    background: #11644a;
+    box-shadow: 0px 0px 10px 1px #97b59f;
+}
+.buttonDivBuySell{
+    width: 30%;
+}
+.dashboard-container {
+    height: 100vh;
+    overflow: hidden;
+    background:rgb(238 245 240 / 90%);
+
+}
+.loading-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.setBg{
+    /*background-color:#FFFFFF ;*/
+
+}
+.spinner {
+    z-index: 1000;
+    border: 12px solid #f3f3f3;
+    border-top: 12px solid #11644a;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+    margin: auto;
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+table th,
+table td {
+    display: inline-block;
+}
+.documentTabIcon {
+    width: 40px;
+    height: 40px;
+    color:#11644a;
+}
+.balElipssis{
+    width: 55%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.tablelipssis{
+    width: 40%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

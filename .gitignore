@@ -1,0 +1,82 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+anveshak-api/dist
+anveshak-api/tmp
+anveshak-api/out-tsc
+
+# dependencies
+anveshak-*/node_modules
+anveshak-*/.env
+
+# IDEs and editors
+anveshak-api/.idea
+anveshak-api/.project
+anveshak-api/.classpath
+anveshak-api/.c9/
+anveshak-api/*.launch
+anveshak-api/.settings/
+anveshak-api/*.sublime-workspace
+
+# IDE - VSCode
+anveshak-api/.vscode/*
+anveshak-api/!.vscode/settings.json
+anveshak-api/!.vscode/tasks.json
+anveshak-api/!.vscode/launch.json
+anveshak-api/!.vscode/extensions.json
+
+# misc
+anveshak-api/.sass-cache
+anveshak-api/connect.lock
+anveshak-api/coverage
+anveshak-api/libpeerconnection.log
+anveshak-apinpm-debug.log
+anveshak-apiyarn-error.log
+anveshak-apitestem.log
+anveshak-api/typings
+
+# System Files
+anveshak-api/.DS_Store
+anveshak-api/Thumbs.db
+
+anveshak-api/.nx/cache
+
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+anveshak-ui/.pnp
+anveshak-ui/.pnp.js
+anveshak-ui/.yarn/install-state.gz
+
+# next.js
+anveshak-ui/.next/
+anveshak-ui/out/
+
+# production
+anveshak-ui/build
+
+# misc
+anveshak-ui/.DS_Store
+anveshak-ui/*.pem
+
+# debug
+anveshak-ui/npm-debug.log*
+anveshak-ui/yarn-debug.log*
+anveshak-ui/yarn-error.log*
+
+# local env files
+anveshak-ui/.env*.local
+
+# vercel
+anveshak-ui/.vercel
+
+# typescript
+anveshak-ui/*.tsbuildinfo
+anveshak-ui/next-env.d.ts
+
+# VSCode
+anveshak-ui/.history/
+
+# idea
+anveshak-ui/.idea/

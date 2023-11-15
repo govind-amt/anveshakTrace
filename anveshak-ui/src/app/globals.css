@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  font-family: sans-serif;
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+.parentToolTip .tooltiptext {
+  font-size: 11px;
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  visibility: hidden;
+  height: 25px;
+  margin-left: 60px;
+  margin-top: -8px;
+  background-color: #454647;
+  opacity: 1;
+  color: #ffffff;
+  text-align: left;
+  border-radius: 4px;
+  border: 1px solid #454647;
+  position: absolute;
+  z-index: 1;
+  /*transform: translateX(-50%);*/
+}
+/*.parentToolTip{*/
+/*  position: relative;*/
+/*}*/
+.parentToolTip:hover .tooltiptext {
+  visibility: visible;
+  /*position: absolute;*/
+}
+
+.parentToolTipDash .tooltiptextDash {
+  font-size: 11px;
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  visibility: hidden;
+  height: 86px;
+  margin-left: 53px;
+  margin-top: -94px;
+  background-color: #f5f6f7;
+  opacity: 1;
+  color: #060606;
+  text-align: left;
+  border-radius: 4px;
+  border: 1px solid #454647;
+  position: absolute;
+  z-index: 1;
+  transform: translateX(-29%);
+}
+/*.parentToolTip{*/
+/*  position: relative;*/
+/*}*/
+.parentToolTipDash:hover .tooltiptextDash {
+  visibility: visible;
+  /*position: absolute;*/
+}
+
+.contactNumber::-webkit-inner-spin-button,
+.contactNumber::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
